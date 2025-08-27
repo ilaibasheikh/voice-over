@@ -1,18 +1,57 @@
+# ElevenLabs Text-to-Speech (TTS) Project
+
+This project integrates **ElevenLabs API** with **Next.js** to convert text into natural-sounding speech.  
+It allows users to type text, select a custom voice, and generate speech with **real-time word highlighting** during playback.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+## Features
+- Convert any input text into **speech** using ElevenLabs API.
+- **Multiple voices support** 
+- **Word-by-word highlighting** while the audio plays.
+- **Play / Pause controls** for generated audio.
+-  Smooth UI with TailwindCSS styling.
+-  Secure API key handling via Next.js API routes.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js (React, Tailwind CSS)
+- **Backend:** Next.js API Routes
+- **API:** [ElevenLabs Text-to-Speech API](https://api.elevenlabs.io)
+- **Language:** TypeScript
+
+
+---
+
+## Getting Started
+First, clone the repository:
+
+```bash
+git clone https://github.com/ilaibasheikh/voice-over.git
+cd voice-over
+```
+
+Then, install the dependencies:
+
+```bashbash
+npm install
+```
+
+Create a `.env.local` file in the root directory:
+
+```bash
+ELEVENLABS_API_KEY=your_api_key_here
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
