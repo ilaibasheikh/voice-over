@@ -5,6 +5,9 @@ It allows users to type text, select a custom voice, and generate speech with **
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+### Visuals
+![VoiceOver](/VoiceOver.png)
+![Texthighlight](/Texthighlight.png)
 ---
 
 ## Features
